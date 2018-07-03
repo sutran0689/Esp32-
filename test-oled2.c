@@ -102,5 +102,35 @@ void loop(void)
     delay(800);
   }
 
+ draw_bar(u8x8.getCols()-1, 1);
+  for( c = u8x8.getCols()-1; c > 0; c--)
+  {
+    draw_bar(c-1, 1);
+    draw_bar(c, 0);
+    delay(50);
+  }
+  draw_bar(0, 0);
+
+  pre();
+  u8x8.drawString(0, 2, "Small");
+  u8x8.draw2x2String(0, 5, "Big");
+  delay(3000);
+
+  pre();
+  u8x8.fillDisplay();
+  for( r = 0; r < u8x8.getRows(); r++ )
+  {
+    u8x8.clearLine(r);
+    delay(100);
+  }
+  delay(1000);
+
+  pre();
+  u8x8.print("print \\n\n");
+  delay(500);
+  u8x8.println("println");
+  delay(500);
+  u8x8.println("done");
+  delay(1500);
   //while(1);
 }
