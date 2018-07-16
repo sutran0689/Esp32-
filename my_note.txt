@@ -1,0 +1,16 @@
+https://techtutorialsx.com/2018/07/01/esp32-arduino-pir-motion-sensor/
+https://techtutorialsx.com/2017/09/30/esp32-arduino-external-interrupts/
+https://www.hackster.io/botletics/esp32-ble-android-arduino-ide-awesome-81c67d
+https://github.com/espressif/arduino-esp32/issues/1111
+http://www.iotsharing.com/2017/06/how-to-use-interrupt-timer-in-arduino-esp32.html
+/////////ESP32 Technical Tutorial: Building with Eclipse //////////
+ESP32 Technical Tutorial: Building with Eclipse
+https://esp-idf.readthedocs.io/en/v1.0/windows-setup.html
+http://esp32.net/
+https://www.youtube.com/watch?v=jF8WnlUg4pY
+
+//ESP32_LoRa
+https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/
+
+////bluetooth
+https://www.youtube.com/watch?v=wkO-ytWVvC0
